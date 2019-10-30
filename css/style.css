@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700&display=swap');
+
+.imageContainer {
+    overflow: hidden;
+}
+
+img,
+video {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+a:visited {
+  color: red;
+}
+
+
+body {
+  margin:0;
+  font-size: 1.5rem;
+/*   color: white; */
+  background-color: lightblue;
+  font-family: 'Crimson Text', serif;
+  color: black;
+  
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  background-color: lightblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+/*   font-family: 'Crimson Text', serif; */
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+main {
+  padding: 16px;
+  margin-top: 30px;
+/*   height: 1500px; /* Used in this example to enable scrolling */ */
+}
+
+.skills {
+    grid-column-start: 1;
+    grid-column-end: ;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+   
+}
+
+h1{
+  
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+  
+}
+
+.tagline{
+   text-align: center; 
+    font-style: italic;
+}
+
+.attractor{
+   text-align: center; 
+    font-style: italic;
+/*   width: 50%; */
+}
+
+.intro{
+    text-align: center; 
+    font-style: italic;
+}
+
+h3{
+  font-size: 2.5rem;
+}
+
+h2{
+  font-size: 3.0rem;
+}
