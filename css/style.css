@@ -2,16 +2,10 @@
 
 .logo {
   width:400px;
-/*
-  overflow: hidden;
-  overflow: visible;
-  overflow: scroll;
-*/
     overflow: hidden;
 }
 
-img,
-video {
+img, video {
     width: auto;
     height: auto;
     max-width: 100%;
@@ -21,6 +15,14 @@ a:visited {
   color: red;
 }
 
+
+@media screen and (max-width: 1300px) {
+  .navbar a:not(:first-child) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
 
 body {
   margin:0;
@@ -38,14 +40,16 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+    
 }
 
 .navbar a {
+    
   float: left;
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 16px 20px;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -71,7 +75,7 @@ main {
 }
 
 h1{
-  
+  padding-top: 20px;
   font-weight: 700;
   font-size: 4rem;
   text-align: center;
