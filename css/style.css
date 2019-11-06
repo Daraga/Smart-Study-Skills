@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,700&display=swap');
 
-.imageContainer {
+.logo {
+  width:400px;
+/*
+  overflow: hidden;
+  overflow: visible;
+  overflow: scroll;
+*/
     overflow: hidden;
 }
 
