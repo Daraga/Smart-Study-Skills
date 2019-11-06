@@ -19,7 +19,6 @@ a:visited {
 body {
   margin:0;
   font-size: 1.5rem;
-/*   color: white; */
   background-color: lightblue;
   font-family: 'Crimson Text', serif;
   color: black;
@@ -44,7 +43,6 @@ body {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
-/*   font-family: 'Crimson Text', serif; */
 }
 
 .navbar a:hover {
@@ -55,7 +53,6 @@ body {
 main {
   padding: 16px;
   margin-top: 30px;
-/*   height: 1500px; /* Used in this example to enable scrolling */ */
 }
 
 .skills {
