@@ -5,19 +5,20 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>
-        Smart Study Skills: About
+        Smart Study Skills: Homepage
     </title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
     <header class="site-header">
-        <nav class="navbar">
-            <a href="index.html">Home</a>
+        <nav class="navbar" id="mynavbar">
+
+            <a href="index.html" class="active">Home</a>
             <a href="retrieval.html">Retrieval</a>
             <a href="practice.html">Spaced Practice</a>
             <a href="elaborate.html">Elaboration</a>
@@ -25,11 +26,24 @@
             <a href="concrete.html">Concrete Examples</a>
             <a href="coding.html">Dual Coding</a>
             <a href="about.html">About</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
             
         </nav>
 
     </header>
 
+    <script>
+function myFunction() {
+  var x = document.getElementById("mynavbar");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
+</script>
     <main role="main">
 
         <div class="head">
