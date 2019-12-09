@@ -7,7 +7,7 @@
 }
 
 img, video {
-    width: auto;
+    max-width: auto;
     height: auto;
     max-width: 100%;
 }
@@ -16,7 +16,7 @@ img, video {
   display: none;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1100px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
@@ -24,7 +24,7 @@ img, video {
   }
 }
 
-@media screen and (max-width: 2600px) {
+@media screen and (max-width: 1100px) {
 /*  .navbar.responsive {position: relative;}*/
   .navbar.responsive .icon {
     position: absolute;
@@ -137,4 +137,24 @@ h2{
 
 ul li {
     padding: 5px 0px;
+}
+
+.videos{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+    
+    
+}
+
+.table{
+    margin-left:10%; 
+    margin-right:10%;
+    
+}
+
+h3{
+    font-size: 3vw;
+    margin-left:10%; 
+    margin-right:10%;
 }
