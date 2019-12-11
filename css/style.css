@@ -137,8 +137,38 @@ h2{
 
 ul li {
     padding: 5px 0px;
+
 }
 
 .skilltitle{
     text-align: center
 }
+.table{
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.videos{
+    list-style: none
+}
+
+
+h3{
+    font-size: 3vw;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+.video-responsive iframe{
+/*    left:0;*/
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
