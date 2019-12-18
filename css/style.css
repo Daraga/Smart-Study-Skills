@@ -16,7 +16,7 @@ img, video {
   display: none;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 1040px) {
   .navbar a:not(:first-child) {display: none;}
   .navbar a.icon {
     float: right;
@@ -24,7 +24,7 @@ img, video {
   }
 }
 
-@media screen and (max-width: 2600px) {
+@media screen and (max-width: 1040px) {
 /*  .navbar.responsive {position: relative;}*/
   .navbar.responsive .icon {
     position: absolute;
