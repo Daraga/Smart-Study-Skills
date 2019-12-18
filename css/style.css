@@ -18,8 +18,11 @@ img, video {
 
 @media screen and (max-width: 1040px) {
   .navbar a:not(:first-child) {display: none;}
+    .navbar a:nth-child(2){
+         display: block;
+    }
   .navbar a.icon {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -28,9 +31,12 @@ img, video {
 /*  .navbar.responsive {position: relative;}*/
   .navbar.responsive .icon {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
   }
+    .navbar.responsive a:nth-child(2){
+         margin-left: 50px;
+    }
   .navbar.responsive a {
     float: none;
     display: block;
