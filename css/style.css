@@ -46,12 +46,6 @@ img, video {
   }
 }
 
-a:visited {
-  color: red;
-}
-
-
-
 .navbar .icon {
   display: none;
 }
@@ -64,14 +58,14 @@ a:visited {
   top: 0;
   width: 100%;
 
-    
+
 }
 
 .navbar a {
-    
+
   float: left;
   display: block;
-  color: black;
+  /* color: white; */
   text-align: center;
   padding: 14px 16px 2px;
   text-decoration: none;
@@ -84,6 +78,10 @@ a:visited {
 .navbar a:hover {
   background: #ddd;
   color: black;
+}
+
+a:link{
+  color: darkblue;
 }
 
 main {
@@ -108,7 +106,7 @@ h1{
     font-size: 7vw;
 /*  font-size: 7rem;*/
   text-align: center;
-  
+
 }
 
 h2{
@@ -130,13 +128,13 @@ ul li {
 }
 
 .attractor{
-   text-align: center; 
+   text-align: center;
     font-style: italic;
 /*   width: 50%; */
 }
 
 .intro{
-    text-align: center; 
+    text-align: center;
     font-style: italic;
 }
 
