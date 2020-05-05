@@ -75,7 +75,16 @@ a:visited {
     color: red;
 }
 
+<<<<<<< HEAD
 /*
+=======
+a:visited {
+  color: red;
+}
+
+
+
+>>>>>>> parent of 128a6a9... Update style.css
 .navbar .icon {
     display: none;
 }
@@ -83,16 +92,28 @@ a:visited {
 
 /*
 .navbar {
+<<<<<<< HEAD
     overflow: hidden;
     background-color: #333;
     background-color: lightsteelblue;
     position: fixed;
     top: 0;
     width: 100%;
+=======
+  overflow: hidden;
+  background-color: #333;
+  background-color: lightsteelblue;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+    
+>>>>>>> parent of 128a6a9... Update style.css
 }
 */
 
 .navbar a {
+<<<<<<< HEAD
 
     float: left;
     display: block;
@@ -102,13 +123,29 @@ a:visited {
     text-decoration: none;
     /*  font-size: 1.5rem;*/
     /*    font-size: 1.8vw;*/
+=======
+    
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px 2px;
+  text-decoration: none;
+/*  font-size: 1.5rem;*/
+/*    font-size: 1.8vw;*/
+>>>>>>> parent of 128a6a9... Update style.css
     font-size: 1.8vw;
     font-weight: bold;
 }
 
 .navbar a:hover {
+<<<<<<< HEAD
     background: #ddd;
     color: black;
+=======
+  background: #ddd;
+  color: black;
+>>>>>>> parent of 128a6a9... Update style.css
 }
 
 main {
@@ -131,10 +168,16 @@ h1 {
     padding-top: 20px;
     font-weight: 700;
     font-size: 7vw;
+<<<<<<< HEAD
     /*  font-size: 7rem;*/
     text-align: center;
     font-family: "Garamond";
 
+=======
+/*  font-size: 7rem;*/
+  text-align: center;
+  
+>>>>>>> parent of 128a6a9... Update style.css
 }
 
 h2 {
@@ -155,14 +198,24 @@ ul li {
 
 }
 
+<<<<<<< HEAD
 .attractor {
     text-align: center;
+=======
+.attractor{
+   text-align: center; 
+>>>>>>> parent of 128a6a9... Update style.css
     font-style: italic;
     /*   width: 50%; */
 }
 
+<<<<<<< HEAD
 .intro {
     text-align: center;
+=======
+.intro{
+    text-align: center; 
+>>>>>>> parent of 128a6a9... Update style.css
     font-style: italic;
 }
 
