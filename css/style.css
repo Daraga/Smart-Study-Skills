@@ -102,7 +102,7 @@ a:visited {
 =======
   overflow: hidden;
   background-color: #333;
-  background-color: lightsteelblue;
+  background-color: lightblue;
   position: fixed;
   top: 0;
   width: 100%;
@@ -132,8 +132,11 @@ a:visited {
   padding: 14px 16px 2px;
   text-decoration: none;
 /*  font-size: 1.5rem;*/
+<<<<<<< HEAD
 /*    font-size: 1.8vw;*/
 >>>>>>> parent of 128a6a9... Update style.css
+=======
+>>>>>>> parent of 93c10fc... changed background color
     font-size: 1.8vw;
     font-weight: bold;
 }
@@ -156,10 +159,17 @@ main {
 body {
     margin: 0;
     font-size: 2vw;
+<<<<<<< HEAD
     /*  font-size: 1.5rem;*/
     background-color: coral;
     font-family: 'Crimson Text', serif;
     color: black;
+=======
+/*  font-size: 1.5rem;*/
+  background-color: lightblue;
+  font-family: 'Crimson Text', serif;
+  color: black;
+>>>>>>> parent of 93c10fc... changed background color
 
 }
 
